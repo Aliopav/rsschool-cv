@@ -1,1 +1,1 @@
-https://github.com/Aliopav/rsschool-cv/cv
+https://Aliopav.github.io/rsschool-cv/cv
