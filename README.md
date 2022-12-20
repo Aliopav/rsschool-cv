@@ -1,2 +1,2 @@
 # rsschool-cv
-https://Aliopav.github.io/rsschool-cv/cv.md
+https://Aliopav.github.io/rsschool-cv/cv
