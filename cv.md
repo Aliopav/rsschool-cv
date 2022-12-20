@@ -1,4 +1,4 @@
-![](./my photo.jpg)
+![](https://github.com/Aliopav/rsschool-cv/my photo.jpg)
 ### Pavel Alioksa
 
 ---
