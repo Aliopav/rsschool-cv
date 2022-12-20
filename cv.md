@@ -1,3 +1,4 @@
+[](my phot0.jpg)
 ### Pavel Alioksa
 
 ---
@@ -52,5 +53,5 @@ getMaxSubSum([2, -1, 2, 3, -9]);
 
 - Russian - native
 - English - A2
-- ####
-- [My github](https://github.com/Aliopav)
+---
+ [My github](https://github.com/Aliopav)
