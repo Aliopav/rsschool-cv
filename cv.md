@@ -1,4 +1,4 @@
-[](my phot0.jpg)
+[](my photo.jpg)
 ### Pavel Alioksa
 
 ---
