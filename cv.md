@@ -54,4 +54,4 @@ getMaxSubSum([2, -1, 2, 3, -9]);
 - Russian - native
 - English - A2
 ---
- [My github](https://github.com/Aliopav)&nbsp&nbsp&nbsp&nbsp                                 [<img src="https://rs.school/images/rs_school_js.svg" width="50 px">](https://rs.school/js/)
+ [My github](https://github.com/Aliopav &nbsp&nbsp&nbsp&nbsp)                                 [<img src="https://rs.school/images/rs_school_js.svg" width="50 px">](https://rs.school/js/)
