@@ -92,9 +92,16 @@
         <section class="code">
           <h2>Code Example</h2>
           <p>
-            function getMaxSubSum(arr) { let sum = 0; res = arr.map((elem) => {
-            return (sum += elem); }); console.log(Math.max(...res)); }
-            getMaxSubSum([2, -1, 2, 3, -9]);
+            class Clock { constructor() { this.container =
+            document.createElement("section");
+            this.container.classList.add("container"); this.hours =
+            this._creatHours(); this.arrowHr = document.createElement("div");
+            this.arrowHr.classList.add("hours"); this.arrowMn =
+            document.createElement("div");
+            this.arrowMn.classList.add("minutes"); this.arrowSec =
+            document.createElement("div");
+            this.arrowSec.classList.add("seconds"); this.point =
+            document.createElement("div"); this.point.classList.add("point"); }
           </p>
         </section>
       </div>
