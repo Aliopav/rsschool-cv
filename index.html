@@ -1,12 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div id="root"></div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My CV</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left-conteiner">
+        <header class="header">
+          <img src="./images/my photo.jpg" alt="" class="header__photo" />
+          <h1 class="header__myName">Pavel Alioksa</h1>
+          <h2 class="header__spec">Junior Fronted Developer</h2>
+        </header>
+        <main class="main">
+          <section class="contact">
+            <h2 class="contact__header">Contacts</h2>
+            <div class="contact__tel">
+              <img
+                src="./images/free-icon-contact-5300607.png"
+                alt=""
+                width="30px"
+              />
+              <p>+375 296827646</p>
+            </div>
+            <div class="contact__email">
+              <img
+                src="./images/free-icon-messaging-1497772.png"
+                alt=""
+                width="30px"
+              />
+              <p>aliopav2@gmail.com</p>
+            </div>
+            <div class="contact__social">
+              <img src="" alt="" />
+              <img src="" alt="" />
+            </div>
+          </section>
+          <section class="skills">
+            <h2>Skills</h2>
+            <ul class="skills__ul">
+              <li class="skills__ul-item">HTML5,CSS3</li>
+              <li class="skills__ul-item">JavaScript Basics</li>
+              <li class="skills__ul-item">GitHub</li>
+              <li class="skills__ul-item">VS Code</li>
+            </ul>
+          </section>
+          <section class="languages">
+            <h2>Languages</h2>
+            <ul class="languges__ul">
+              <li class="languges__ul-item">English A2</li>
+              <li class="languges__ul-item">Russian Native</li>
+            </ul>
+          </section>
+        </main>
+      </div>
+      <div class="right-conteiner">
+        <section class="aboutme">
+          <h2>About Myself</h2>
+          <p>
+            I have 8 years of experience working for Hilti as a technical
+            consultant. I was responsible for sales and development of the Gomel
+            region. The essence of the work was in direct sales. My goal was to
+            collect as much information from construction sites as possible,
+            find the company's weaknesses, prepare an economic justification for
+            the benefits of cooperation, and then successfully negotiate with
+            the company's top management. In June 2022, I decided to try myself
+            as a frontend developer, because I see great prospects for growth in
+            this.
+          </p>
+        </section>
+        <section class="aducation">
+          <h2>Aducation</h2>
+          <ul>
+            <li>Sukhoi Technical University</li>
+            <li>Faculty of Energy</li>
+            <li>Years: 2003-2008</li>
+            <li>Specialization: energy engineer</li>
+          </ul>
+        </section>
+        <section class="courses">
+          <h2>Courses</h2>
+          <ul>
+            <li>The initial javascript course in It Academy (comleted)</li>
+            <li>HTML and CSS IT Academy (comleted)</li>
+            <li>Basic javascript Course (in Process)</li>
+          </ul>
+        </section>
+        <section class="code">
+          <h2>Code Example</h2>
+          <p>
+            class Clock { constructor() { this.container =
+            document.createElement("section");
+            this.container.classList.add("container"); this.hours =
+            this._creatHours(); this.arrowHr = document.createElement("div");
+            this.arrowHr.classList.add("hours"); this.arrowMn =
+            document.createElement("div");
+            this.arrowMn.classList.add("minutes"); this.arrowSec =
+            document.createElement("div");
+            this.arrowSec.classList.add("seconds"); this.point =
+            document.createElement("div"); this.point.classList.add("point"); }
+          </p>
+        </section>
+      </div>
+    </div>
+    <footer class="footer">
+      <a href="https://github.com/Aliopav/rsschool-cv" class="footer__git"
+        >My GitHub</a
+      >
+      <a href="https://rs.school/js/"
+        ><img
+          src="https://rs.school/images/rs_school_js.svg"
+          alt="logo"
+          width="100px"
+      /></a>
+    </footer>
+  </body>
 </html>
