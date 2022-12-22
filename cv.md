@@ -1,3 +1,4 @@
+![](https://github.com/Aliopav/rsschool-cv/blob/rsschool-cv-html/my%20photo.jpg)
 ### Pavel Alioksa
 
 ---
@@ -52,3 +53,5 @@ getMaxSubSum([2, -1, 2, 3, -9]);
 
 - Russian - native
 - English - A2
+---
+ [My github](https://github.com/Aliopav )                        [<img src="https://rs.school/images/rs_school_js.svg" width="50 px">](https://rs.school/js/)
